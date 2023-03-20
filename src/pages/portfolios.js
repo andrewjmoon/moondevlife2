@@ -349,33 +349,6 @@ const Portfolio = () => (
       <li style={{ color: `white` }}>
         <a
           style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/AMsAudioPlaylist"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://amsaudioplaylist.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://amsaudioplaylist.netlify.app
-        </a>
-        <br />
-        This app utilizes the Openwhyd API to showcase the playlists I have
-        created plus the ability to play the songs or audiobooks in the browser.
-        A react audio player was also used for playing audio books. The data
-        from the lists are from Google Sheets. AuthO provides the authentication
-        with Material-UI for the styling as well.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
           href="https://github.com/andrewjmoon/beerproject"
           target="_blank"
           rel="noopener noreferrer"
