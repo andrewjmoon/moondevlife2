@@ -16,17 +16,15 @@ const About = () => (
       Hello, my name is Andrew Moon and I am an aspiring Front-End Developer
       with some knowledge of Back-End Development. My primary focus has been on
       the ReactJS framework. While focusing on ReactJS, I have utilized the
-      following applications in my studies and projects: GatsbyJS, Apollo,
-      GraphQL, Redux, Express, MongoDB, Hasura, Material-UI, Algolia, Auth0,
-      Airtable, Netlify, Heroku, Shopify, and Stripe. Computer Programming has
+      following applications in my studies and projects: ReactJs, Python-Django, GatsbyJS, Apollo,
+      GraphQL, Javascript, HTML, Material-UI, Auth0, and Airtable. Computer Programming has
       become a great passion of mine in which I enjoy learning and solidifying
       my skills very much. I do not want to become complacent in my programming
       studies. I want to keep track of the latest updates and trends in the
       programming world and innovate with the times. Computer Programming
       involves dedication, hard work, innovation, creativity, and perseverance.
       I possess all of these qualities and apply them everyday to my programming
-      studies and projects. Below are links to my Contact, Portfolio, and Resume
-      pages.
+      studies and projects. Below are links to my Contact and Portfolio pages.
     </p>
     <p style={{ color: `white`, textAlign: "center" }}>
       <Link style={{ color: `white`, marginRight: `1.0rem` }} to="/contact">
@@ -37,11 +35,6 @@ const About = () => (
       <Link style={{ color: `white`, marginRight: `1.0rem` }} to="/portfolios">
         {" "}
         Portfolio Page{" "}
-      </Link>
-      <br />
-      <Link style={{ color: `white`, marginRight: `1.0rem` }} to="/resume">
-        {" "}
-        Resume Page{" "}
       </Link>
       <br />
       <Link style={{ color: `white` }} to="/">
