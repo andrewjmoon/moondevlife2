@@ -47,6 +47,29 @@ const Portfolio = () => (
       <li style={{ color: `white` }}>
         <a
           style={{ color: `white` }}
+          href="https://github.com/MoonData21/PythonRecipesProjectAM"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={logo} />
+        </a>
+        <a
+          style={{ color: `white` }}
+          href="https://anoon14.pythonanywhere.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          https://anoon14.pythonanywhere.com/
+        </a>
+        <br />
+        Recipe Sharing App with Django and Html. The main objective of this project is to have users sign up and provide CRUD operations while sharing recipes with friends and family.
+      </li>
+    </ul>
+    <ul>
+      <li style={{ color: `white` }}>
+        <a
+          style={{ color: `white` }}
           href="https://github.com/andrewjmoon/thehelpoutproject"
           target="_blank"
           rel="noopener noreferrer"
@@ -63,11 +86,11 @@ const Portfolio = () => (
           https://thehelpoutproject.netlify.app/
         </a>
         <br />
-        This site provides a list non-profits and charities for Covid-19
+        This site was meant to provide a list non-profits and charities for Covid-19
         responses and where to donate to the organizations. There is also a list
         for tips/advice associated with Covid-19. Pagination is being utilized
         with data files to mimic an API fetch. Material-UI styles the project
-        with an image layout scroll added as well.
+        with an image layout scroll added as well. 
       </li>
     </ul>
     <ul>
@@ -125,84 +148,6 @@ const Portfolio = () => (
       <li style={{ color: `white` }}>
         <a
           style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/localfoodplacesapp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://ams-localfoodplaces.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://ams-localfoodplaces.netlify.app
-        </a>
-        <br />
-        This site lists local restaurants and food related businesses in
-        Beaumont, Texas, utilizing Mapbox for the mapping functionality.
-        Tabletopjs, Material-UI, and React Hooks were part of the projects
-        framework.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/therestaurantsearchapp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://therestaurantapp.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://therestaurantapp.netlify.app
-        </a>
-        <br />
-        This site allows a user to search for a type of food or restaurant in a
-        certain city or neighborhood. A list of the results will show up on a
-        map along with Yelp ratings and reviews. The site utilizes the Yelp
-        Fusion API for the food data and Leafletjs for the mapping
-        functionality.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/On_the_Links"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://onthelinks.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://onthelinks.netlify.app/
-        </a>
-        <br />
-        This site combines GatsbyJs, Contentful, Material-UI, and pagination to
-        show a list of compiled links ordered by dates. This site is best used
-        on a laptop or desktop.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
           href="https://github.com/Secret-Machines/theplaylist"
           target="_blank"
           rel="noopener noreferrer"
@@ -228,32 +173,6 @@ const Portfolio = () => (
       <li style={{ color: `white` }}>
         <a
           style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/What-sOnYoutubeApp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://whats-on-youtube.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://whats-on-youtube.netlify.app
-        </a>
-        <br />
-        In this App, I track lists of available movies and shows on Youtube and
-        the Internet Archive Site. I also have a Youtube Player that built with
-        React hooks. Material-Ui, Auth0, Axios, and Tabletopjs were also used in
-        the building of this App.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
           href="https://github.com/Secret-Machines/calendarcountdown"
           target="_blank"
           rel="noopener noreferrer"
@@ -272,109 +191,6 @@ const Portfolio = () => (
         <br />
         This app is both a timer and a calendar combined built with React. A
         background-video is also played on the home page.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/tvshowrater"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://amstvratingsapp.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://amstvratingsapp.netlify.app
-        </a>
-        <br />
-        This App incorporates Airtable as a backend to track ratings of
-        television shows selected by a User. Pagination has been provided with
-        Material-Ui being used for the styling. The useReducer hook was added
-        for data fetching of the television shows through the TV Maze API as
-        well.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/audio2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://audiocollection-am.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://audiocollection-am.netlify.app
-        </a>
-        <br />
-        This site incorporates a music audio player, an audiobook collection, a
-        music selection from Youtube using Google Sheets. AuthO provides the
-        authentication and Bulma provides the styling.
-      </li>
-    </ul>
-
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
-          href="https://astros-site.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://astros-site.netlify.app
-        </a>
-        <br />
-        This Astros Site tracks the stats of the Astro Baseball Players with
-        various charts utilizing Airtable. Also, the teams' depth chart and
-        additional resources (various blogs) are provided as well. I utilized
-        Material-UI for the styling and hosted the site with Netlify.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
-          href="https://github.com/andrewjmoon/beerproject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} />
-        </a>
-        <a
-          style={{ color: `white` }}
-          href="https://blogs-and-brews.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://blogs-and-brews.netlify.app
-        </a>
-        <br />
-        This site comprises many resources for beer enthusiasts. I utilized the
-        openbrewerydb API, the Brewdog Brewery's API, and the BreweryDB to
-        provide much of the information. In the 'Search Breweries in the US'
-        Page, a site visitor can search a city or state for a list of breweries
-        in that location. One can then click on the map link to go to the
-        address in Google Maps or click to the Brewery's website page as well.
-        Pagination was also added for a better user experience for some of the
-        pages. There is also a section for reviews and resources. Material-UI
-        was used to style the NavBar and SideDrawer, and AuthO provided the
-        authentication.
       </li>
     </ul>
     <ul>
@@ -426,24 +242,6 @@ const Portfolio = () => (
         This site provides picturesque photos and videos through full-screen
         galleries, picture carousels, and videos from free photo sites and
         Youtube. React Hooks and React-Router was used throughout this project.
-      </li>
-    </ul>
-    <ul>
-      <li style={{ color: `white` }}>
-        <a
-          style={{ color: `white` }}
-          href="https://therecipestash.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          https://therecipestash.netlify.app
-        </a>
-        <br />
-        The Recipe Stash site incorporates the edamam API for searching recipes
-        online and google sheets for storing recipes from old recipe books.
-        Pagination has been added to the site as well. A Material-UI theme was
-        used for the styling of the site along with a hide-on-scroll function.
       </li>
     </ul>
     <ul>
