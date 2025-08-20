@@ -50,16 +50,6 @@ const IndexPage = ({ data }) => {
           Portfolio Page{" "}
         </Link>
         <br />
-        <Link
-          style={{
-            color: `white`,
-            textAlign: "center",
-          }}
-          to="/resume"
-        >
-          {" "}
-          Resume Page{" "}
-        </Link>
       </p>
       <Image />
     </Layout>
