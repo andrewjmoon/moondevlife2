@@ -14,7 +14,19 @@ const Contact = () => (
       <br />
       <p>Phone Number: 1-409-549-9571</p>
       <br />
-      <p>Discord: moon_AJM#4255</p>
+      <p>
+        Youtube: CodingAndAnalysis
+        <br />
+        <a
+          href="https://www.youtube.com/@CodingAndAnalysis"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: `white` }}
+        >
+          {" "}
+          Link to Youtube Channel{" "}
+        </a>
+      </p>
       <br />
       <p>
         Github: andrewjmoon (StylesofOmega)
@@ -27,6 +39,19 @@ const Contact = () => (
         >
           {" "}
           https://github.com/andrewjmoon{" "}
+        </a>
+      </p>
+      <p>
+        Github: MoonData21
+        <br />
+        <a
+          href="https://github.com/MoonData21"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: `white` }}
+        >
+          {" "}
+          https://github.com/MoonData21{" "}
         </a>
       </p>
       <p>
